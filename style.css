@@ -1,0 +1,91 @@
+html{
+    font-size: 16px;
+}
+:root{
+    --primary-color: #0A3871;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+main{
+    background-color:#F3F5FC;
+}
+
+.cabecalho{
+    padding: 2rem;
+    background-color: #F3F5FC;
+}
+.logo {
+    width: 1.94288rem;
+    height: 3rem;
+    flex-shrink: 0;
+}
+
+.btnDark{
+    background-color: var(--primary-color);
+    color: #F3F5FC;
+}
+
+
+.botoes{
+    display: inline;
+    width: 9rem;
+    padding: 1rem;
+    align-items:center;
+    gap:0.3rem;
+    flex-shrink: 0;
+    border-radius: 1.3rem;
+}
+
+.mensagem{
+    text-align: center;
+    height: 30rem;
+}
+
+
+.caixaTexto{
+    background-color: #F3F5FC;
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    border: none;
+
+}
+/*
+.article{
+    width: 90rem;
+    height: 64rem;
+    background-color: #F3F5FC;
+
+}
+.caixaTexto{
+    background-color: #F3F5FC;
+    padding: 2rem;
+    border: none;
+    width: 42.5rem;
+    color: var(--Dark-blue-dark-blue-300, #0A3871);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+
+.botao{
+    display: flex;
+    width: 20.5rem;
+    padding: 1.5rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    background: var(--primary-color);
+    color: #F3F5FC;
+}
+*/
+
